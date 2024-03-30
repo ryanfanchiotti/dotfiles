@@ -1,0 +1,38 @@
+{
+	"diffEditor.ignoreTrimWhitespace": false,
+	"search.followSymlinks": false,
+	"explorer.sortOrder": "type",
+	"extensions.ignoreRecommendations": true,
+	"remote.SSH.connectTimeout": 500,
+	"remote.SSH.useLocalServer": false,
+	"remote.SSH.enableRemoteCommand": true,
+	"telemetry.telemetryLevel": "off",
+	"editor.fontSize": 15,
+	"editor.fontFamily": "'Monaspace Krypton', monospace",
+	"workbench.settings.applyToAllProfiles": [
+		"editor.fontSize"
+	],
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.cursorBlinking": true,
+	"editor.cursorStyle": "line",
+	"files.trimFinalNewlines": true,
+	"window.title": "${activeEditorLong}",
+	"editor.letterSpacing": 0.2,
+	"editor.lineHeight": 22,
+	"security.workspace.trust.untrustedFiles": "open",
+	"remote.downloadExtensionsLocally": true,
+	"editor.quickSuggestions": {
+		"other": "on",
+		"comments": "on",
+		"strings": "on"
+	},
+	"C_Cpp.intelliSenseEngine": "disabled",
+	"workbench.startupEditor": "none",
+	"editor.inlayHints.enabled": "on",
+	"editor.wordWrap": "on",
+	"debug.toolBarLocation": "commandCenter",
+	"extensions.autoUpdate": "onlySelectedExtensions",
+	"cmake.showOptionsMovedNotification": false,
+	"remote.SSH.enableX11Forwarding": false,
+	"remote-explorer.foldersSortOrder": "alphabetical",
+}

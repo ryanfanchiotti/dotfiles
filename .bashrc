@@ -2,7 +2,9 @@ alias bashprofile="emacs ~/.bash_profile"
 alias bashrc="emacs ~/.bashrc"
 alias la="ls -a"
 alias ll="la -l"
+# access binghamton remote pcs
 alias sshbu="ssh rfanchi1@remote.cs.binghamton.edu"
+# commit all edited files and copy latest hash to clipboard 
 function ga() {
     {	
         git add -A

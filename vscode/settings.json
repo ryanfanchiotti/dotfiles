@@ -34,5 +34,5 @@
 	"extensions.autoUpdate": "onlySelectedExtensions",
 	"cmake.showOptionsMovedNotification": false,
 	"remote.SSH.enableX11Forwarding": false,
-	"remote-explorer.foldersSortOrder": "alphabetical",
+	"remote-explorer.foldersSortOrder": "alphabetical"
 }

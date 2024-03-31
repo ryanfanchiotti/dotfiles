@@ -33,6 +33,7 @@
 	"debug.toolBarLocation": "commandCenter",
 	"extensions.autoUpdate": "onlySelectedExtensions",
 	"cmake.showOptionsMovedNotification": false,
+	"workbench.colorTheme": "Ayu Light Bordered",
 	"remote.SSH.enableX11Forwarding": false,
 	"remote-explorer.foldersSortOrder": "alphabetical"
 }

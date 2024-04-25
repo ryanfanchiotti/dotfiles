@@ -8,7 +8,7 @@
 	"remote.SSH.enableRemoteCommand": true,
 	"telemetry.telemetryLevel": "off",
 	"editor.fontSize": 15,
-	"editor.fontFamily": "'Monaspace Krypton', monospace",
+	"editor.fontFamily": "monospace",
 	"workbench.settings.applyToAllProfiles": [
 		"editor.fontSize"
 	],
@@ -30,10 +30,15 @@
 	"workbench.startupEditor": "none",
 	"editor.inlayHints.enabled": "on",
 	"editor.wordWrap": "on",
+	"remote.SSH.remotePlatform": {
+		"remote00.cs.binghamton.edu": "linux",
+		"192.168.1.108": "linux"
+	},
 	"debug.toolBarLocation": "commandCenter",
 	"extensions.autoUpdate": "onlySelectedExtensions",
 	"cmake.showOptionsMovedNotification": false,
-	"workbench.colorTheme": "Ayu Light Bordered",
+	"workbench.colorTheme": "Atom One Light",
 	"remote.SSH.enableX11Forwarding": false,
-	"remote-explorer.foldersSortOrder": "alphabetical"
+	"remote-explorer.foldersSortOrder": "alphabetical",
+	"workbench.iconTheme": "file-icons",
 }

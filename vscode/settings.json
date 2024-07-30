@@ -41,4 +41,5 @@
 	"remote.SSH.enableX11Forwarding": false,
 	"remote-explorer.foldersSortOrder": "alphabetical",
 	"workbench.iconTheme": "file-icons",
+	"git.openRepositoryInParentFolders": "never",
 }

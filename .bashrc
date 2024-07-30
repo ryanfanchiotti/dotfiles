@@ -1,24 +1,15 @@
-alias bashprofile="emacs ~/.bash_profile"
-alias bashrc="emacs ~/.bashrc"
 alias la="ls -a"
 alias ll="la -l"
-# access binghamton remote pcs
+alias l="ls -alF"
+alias grep="grep --color=auto"
 alias sshbu="ssh rfanchi1@remote.cs.binghamton.edu"
-# commit all edited files and copy latest hash to clipboard 
+alias cx="chmod +x"
 function ga() {
-    {	
-        git add -A
-    } || {
-        return
-    }
-    git commit -m "$*"
-    {	
-        git push
-    } || {
-        return
-    }
-    echo "Latest git hash:" > /dev/tty
+    git add -A || return
+    git commit -m "$*" || return
+    git push || return
+    echo "Latest git hash:"
     git rev-parse HEAD
     git rev-parse HEAD | pbcopy
-    echo "Hash copied to clipboard." > /dev/tty
+    echo "Hash copied to clipboard."
 }

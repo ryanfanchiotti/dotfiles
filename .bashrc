@@ -1,5 +1,5 @@
 alias la="ls -a"
-alias ll="la -l"
+alias ll="ls -l"
 alias l="ls -alF"
 alias grep="grep --color=auto"
 alias sshbu="ssh rfanchi1@remote.cs.binghamton.edu"

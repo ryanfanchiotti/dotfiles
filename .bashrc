@@ -7,7 +7,8 @@ alias cx="chmod +x"
 
 # ssh to bing remotes, param is number of machine to connect to
 sshbu () {
-    machine_num="$(printf "%02d" "${1}")"
+    machine_num=""
+    [[ $# -ge 1 ]] && machine_num="$(printf "%02d" "${1}")"
     ssh "rfanchi1@remote${machine_num}.cs.binghamton.edu"
 }
 
@@ -21,4 +22,6 @@ ga() {
     git rev-parse HEAD | pbcopy
     echo "Hash copied to clipboard."
 }
-. "$HOME/.cargo/env"
+
+# source cargo
+source "$HOME/.cargo/env"

@@ -7,7 +7,8 @@ alias cx="chmod +x"
 
 # ssh to bing remotes, param is number of machine to connect to
 sshbu () {
-    ssh "rfanchi1@remote${1}.cs.binghamton.edu"
+    machine_num="$(printf "%02d" "${1}")"
+    ssh "rfanchi1@remote${machine_num}.cs.binghamton.edu"
 }
 
 # commit all changes in current repo, copy latest hash to clipboard

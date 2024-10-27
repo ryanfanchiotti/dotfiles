@@ -1,27 +1,27 @@
 [core]
-color-theme = "Lapce Light"
+color-theme = "Ayu Light"
 icon-theme = "Material Icons"
 custom-titlebar = false
 modal = false
 
 [terminal]
-font-family = "Menlo"
-font-size = 14
+font-family = "PT Mono"
+font-size = 15
 line-height = 20.0
 
 [editor]
-font-size = 15
+font-size = 16
 atomic-soft-tabs = false
 show-tab = false
 show-bread-crumbs = false
-scroll-beyond-last-line = false
+scroll-beyond-last-line = true
 hover-delay = 100
-highlight-scope-lines = true
+highlight-scope-lines = false
 signature-label-code-block = false
 render-whitespace = "none"
 enable-completion-lens = true
-bracket-pair-colorization = true
-font-family = "Menlo"
+bracket-pair-colorization = false
+font-family = "PT Mono"
 enable-inline-completion = false
 enable-error-lens = true
 line-height = 1.3
@@ -30,9 +30,11 @@ cursor-surrounding-lines = 0
 error-lens-end-of-line = false
 error-lens-multiline = false
 only-render-error-styling = true
-completion-show-documentation = false
+completion-show-documentation = true
 enable-inlay-hints = false
-completion-width = 550
+completion-width = 600
+highlight-matching-brackets = true
+show-indent-guide = false
 
 [ui]
 scale = 1.0
@@ -41,16 +43,17 @@ header-height = 25
 palette-width = 400
 font-size = 12
 open-editors-visible = false
-font-family = "Menlo"
+font-family = "PT Mono"
 tab-separator-height = "Content"
 hover-font-family = ""
 status-height = 18
-scroll-width = 10
+scroll-width = 1
 list-line-height = 20
 
 [lapce-cpp-clangd]
-"volt.serverPath" = "/usr/bin/clangd"
-"volt.serverArgs" = [
-    "--enable-config"
-]
+"volt.serverPath" = "/Users/ryanfanchiotti/clangd-lapce/bin/clangd"
+#"volt.serverArgs" = [
+#    "--enable-config"
+#]
+
 

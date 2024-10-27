@@ -7,6 +7,9 @@ export CLICOLOR=1
 # change colors for ls, sets directories and special files to bold
 export LSCOLORS="ExFxCxDxBxEgEdAbAgAcAd"
 
+# set editor to updated vim
+export EDITOR="/opt/homebrew/bin/vim"
+
 # append to history file instead of overwriting it
 shopt -s histappend
 
@@ -27,6 +30,9 @@ PS1='\[\e[38;5;196;1m\](${?})\[\e[0m\] \[\e[38;5;214;1m\]$(uname -s)\[\e[0m\] \[
 
 # set homebrew's environment variables
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# load fzf bash integration
+eval "$(fzf --bash)"
 
 # source aliases and functions
 source ~/.bashrc

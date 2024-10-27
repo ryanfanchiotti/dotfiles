@@ -1,8 +1,10 @@
 set autoindent
 set tabstop=4
 syntax on
-colorscheme default
+colorscheme shine
 set backspace=indent,eol,start
-set relativenumber
+set number relativenumber
+set ruler
+set shiftwidth=4 smarttab
 set expandtab
-highlight LineNr ctermfg=black
+set shell=bash\ -l

@@ -1,0 +1,27 @@
+[[keymaps]]
+command = "disconnect_remote"
+key = "Meta+Shift+r"
+
+[[keymaps]]
+command = "open_folder"
+key = "Meta+Shift+o"
+
+[[keymaps]]
+command = "close_folder"
+key = "Meta+Shift+f"
+
+[[keymaps]]
+command = "-close_folder"
+key = "Meta+k f"
+
+[[keymaps]]
+command = "close_window_tab"
+key = "Meta+Shift+w"
+
+[[keymaps]]
+command = "toggle_terminal_focus"
+key = "Meta+j"
+
+[[keymaps]]
+command = "-toggle_terminal_focus"
+key = "Ctrl+`"

@@ -5,12 +5,14 @@ custom-titlebar = false
 modal = false
 
 [terminal]
-font-family = "PT Mono"
+font-family = """
+Menlo
+"""
 font-size = 15
 line-height = 20.0
 
 [editor]
-font-size = 16
+font-size = 15
 atomic-soft-tabs = false
 show-tab = false
 show-bread-crumbs = false
@@ -21,7 +23,9 @@ signature-label-code-block = false
 render-whitespace = "none"
 enable-completion-lens = true
 bracket-pair-colorization = false
-font-family = "PT Mono"
+font-family = """
+Menlo
+"""
 enable-inline-completion = false
 enable-error-lens = true
 line-height = 1.3
@@ -43,7 +47,7 @@ header-height = 25
 palette-width = 400
 font-size = 12
 open-editors-visible = false
-font-family = "PT Mono"
+font-family = "Menlo"
 tab-separator-height = "Content"
 hover-font-family = ""
 status-height = 18
@@ -51,9 +55,15 @@ scroll-width = 1
 list-line-height = 20
 
 [lapce-cpp-clangd]
-"volt.serverPath" = "/Users/ryanfanchiotti/clangd-lapce/bin/clangd"
+"volt.serverPath" = "/Users/ryanfanchiotti/Clangd/bin/clangd"
 #"volt.serverArgs" = [
-#    "--enable-config"
+#   "--enable-config"
 #]
+[color-theme]
+
+[color-theme.ui]
+"terminal.white" = "$grey"
+"terminal.bright_white" = "$grey"
+"terminal.bright_black" = "$black"
 
 

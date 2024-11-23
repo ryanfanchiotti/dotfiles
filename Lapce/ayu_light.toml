@@ -1,0 +1,219 @@
+[color-theme]
+name = 'Ayu Light'
+
+[color-theme.base]
+blue = '#399EE6'
+cyan = '#55B4D4'
+green = '#86B300'
+magenta = '#FF7383'
+orange = '#FA8D3E'
+purple = '#A37ACC'
+red = '#F07171'
+yellow = '#F2AE49'
+tan = '#E6BA7E'
+salmon = '#FF7883'
+light-blue = '#035BD626'
+light-red = '#F0717120'
+error-red = '#E65050'
+medium-blue = '#399EE670'
+clear = '#00000000'
+
+black = '#5C6166'
+white = '#FCFCFC'
+grey = '#787B80'
+light-grey = '#EAEAEA'
+dark-grey = '#A3A3A3'
+medium-grey = '#A3A3A380'
+
+text = '$black'
+dim-text = '#787B8080'
+
+current-background = '$white'
+primary-background = '$white'
+secondary-background = '$light-grey'
+
+[color-theme.syntax]
+"markup.link.url" = '$blue'
+tag = '$blue'
+"type.builtin" = '$blue'
+"variable.other.member" = '$blue'
+enum-member = '$blue'
+enumMember = '$blue'
+builtinType = '$blue'
+
+attribute = '$cyan'
+embedded = '$cyan'
+escape = '$cyan'
+"text.uri" = '$cyan'
+"bracket.color.3" = '$cyan'
+
+string = '$green'
+
+"string.escape" = '$magenta'
+
+enum = '$orange'
+method = '$orange'
+function = '$orange'
+"function.method" = '$orange'
+keyword = '$orange'
+selfKeyword = '$orange'
+"markup.bold" = '$orange'
+"markup.italic" = '$orange'
+"markup.list" = '$orange'
+"text.title" = '$orange'
+
+constant = '$purple'
+"markup.link.label" = '$purple'
+"markup.link.text" = '$purple'
+number = '$purple'
+
+"bracket.unpaired" = '$red'
+"markup.heading" = '$red'
+"text.reference" = '$red'
+property = '$red'
+
+struct = '$yellow'
+structure = '$yellow'
+type = '$yellow'
+typeAlias = '$yellow'
+constructor = '$yellow'
+
+"bracket.color.1" = '$tan'
+
+"bracket.color.2" = '$salmon'
+
+field = '$black'
+interface = '$black'
+"punctuation.delimiter" = '$black'
+variable = '$black'
+
+comment = '$dark-grey'
+
+
+[color-theme.ui]
+"activity.background" = '$secondary-background'
+"completion.background" = '$secondary-background'
+"status.background" = '$secondary-background'
+"palette.background" = '$secondary-background'
+"panel.background" = '$secondary-background'
+
+"activity.current" = '$primary-background'
+"editor.background" = '$primary-background'
+"editor.sticky_header_background" = '$primary-background'
+"lapce.tab.active.background" = '$primary-background'
+"tooltip.background" = '$primary-background'
+"terminal.background" = '$primary-background'
+
+"palette.current.background" = '$current-background'
+
+"completion_lens.foreground" = '$grey'
+"editor.indent_guide" = '$grey'
+"editor.visible_whitespace" = '$grey'
+"error_lens.other.foreground" = '$grey'
+"lapce.plugin.author" = '$grey'
+"lapce.plugin.name" = '$grey'
+"markdown.blockquote" = '$grey'
+"terminal.bright_white" = '$grey'
+"terminal.white" = '$grey'
+
+"error_lens.error.foreground" = '$error-red'
+"lapce.remote.disconnected" = '$error-red'
+"lapce.error" = '$error-red'
+
+"source_control.removed" = '$red'
+"status.modal.insert.background" = '$red'
+"debug.breakpoint" = '$red'
+"terminal.bright_red" = '$red'
+"terminal.red" = '$red'
+
+"debug.breakpoint.hover" = '$dim-text'
+"panel.current.foreground.dim" = '$dim-text'
+"panel.foreground.dim" = '$dim-text'
+"panel.hovered.active.background" = '$dim-text'
+"panel.hovered.foreground.dim" = '$dim-text'
+"editor.dim" = '$dim-text'
+
+"panel.foreground" = '$text'
+"panel.hovered.foreground" = '$text'
+"inlay_hint.foreground" = '$text'
+"lapce.plugin.description" = '$text'
+"lapce.tab.active.foreground" = '$text'
+"tooltip.foreground" = '$text'
+"palette.current.foreground" = '$text'
+"palette.foreground" = '$text'
+"panel.current.foreground" = '$text'
+"status.foreground" = '$text'
+"lapce.tab.inactive.foreground" = '$text'
+"editor.foreground" = '$text'
+"terminal.cursor" = '$text'
+"terminal.foreground" = '$text'
+
+"lapce.tab.inactive.background" = '$dark-grey'
+"lapce.tab.separator" = '$dark-grey'
+"lapce.dropdown_shadow" = '$dark-grey'
+"lapce.border" = '$dark-grey'
+"lapce.scroll_bar" = '$dark-grey'
+"lapce.icon.active" = '$dark-grey'
+
+"editor.current_line" = '$light-grey'
+"editor.drag_drop_tab_background" = '$light-grey'
+
+"error_lens.error.background" = '$clear'
+"error_lens.warning.background" = '$clear'
+"lapce.icon.inactive" = '$clear'
+
+"editor.debug_break_line" = '$medium-blue'
+"editor.drag_drop_background" = '$medium-blue'
+"completion.current" = '$medium-blue'
+
+"editor.focus" = '$black'
+"terminal.black" = '$black'
+"terminal.bright_black" = '$black'
+
+"editor.caret" = '$blue'
+"editor.link" = '$blue'
+"inlay_hint.background" = '$blue'
+"lapce.remote.local" = '$blue'
+"lapce.tab.active.underline" = '$blue'
+"status.modal.normal.background" = '$blue'
+"lapce.tab.inactive.underline" = '$blue'
+"source_control.modified" = '$blue'
+"terminal.blue" = '$blue'
+"terminal.bright_blue" = '$blue'
+
+"error_lens.other.background" = '$light-red'
+
+"editor.selection" = '$light-blue'
+"panel.current.background" = '$light-blue'
+"hover.background" = '$light-blue'
+
+"panel.hovered.background" = '$medium-grey'
+
+"error_lens.warning.foreground" = '$yellow'
+"status.modal.visual.background" = '$yellow'
+"terminal.bright_yellow" = '$yellow'
+"terminal.yellow" = '$yellow'
+
+"lapce.button.primary.background" = '$green'
+"lapce.remote.connected" = '$green'
+"source_control.added" = '$green'
+"terminal.bright_green" = '$green'
+"terminal.green" = '$green'
+
+"lapce.button.primary.foreground" = '$white'
+"status.modal.insert.foreground" = '$white'
+"status.modal.normal.foreground" = '$white'
+"lapce.remote.icon" = '$white'
+"status.modal.terminal.foreground" = '$white'
+"status.modal.visual.foreground" = '$white'
+
+"lapce.remote.connecting" = '$orange'
+"lapce.warn" = '$orange'
+
+"status.modal.terminal.background" = '$purple'
+
+"terminal.bright_cyan" = '$cyan'
+"terminal.cyan" = '$cyan'
+
+"terminal.bright_magenta" = '$magenta'
+"terminal.magenta" = '$magenta'

@@ -25,8 +25,8 @@ HISTTIMEFORMAT='%m/%d/%y %T '
 # set max size for bash history file
 HISTSIZE=32767
 
-# custom prompt: last error code, kernel, computer name, current directory
-PS1='\[\e[38;5;196;1m\](${?})\[\e[0m\] \[\e[38;5;214;1m\]$(uname -s)\[\e[0m\] \[\e[38;5;150;1m\]\h\[\e[38;5;196m\] \[\e[38;5;141m\]\w\[\e[0m\] '
+# prompt: error code, kernel, username, short hostname, directory
+PS1='\e[1;32m[$? $(uname) \u@\h \w] \e[0m'
 
 # set homebrew's environment variables
 eval "$(/opt/homebrew/bin/brew shellenv)"

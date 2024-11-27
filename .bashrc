@@ -7,6 +7,8 @@ alias cx="chmod +x"
 alias fv="fzf --bind 'enter:become(vim {})'"
 alias fb="fzf --bind 'enter:become(bat {})'"
 alias umnt="diskutil unmount"
+alias tiv="tiv --256"
+alias rm_ds_store="find ~/ -name '.DS_Store' -delete 2>/dev/null &"
 
 # ssh to bing remotes, param is number of machine to connect to
 sshbu() {

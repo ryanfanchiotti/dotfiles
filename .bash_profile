@@ -26,7 +26,16 @@ HISTTIMEFORMAT='%m/%d/%y %T '
 HISTSIZE=32767
 
 # prompt: error code, kernel, username, short hostname, directory
-PS1='\e[1;32m[$? $(uname) \u@\h \w] \e[0m'
+get_error_code() {
+    local error_code="$?"
+    if [[ "$error_code" == 0 ]]; then
+        echo -ne ""
+    else
+        echo -ne "$error_code "
+    fi
+}
+
+PS1='\e[1;32m[$(get_error_code)$(uname) \u@\h \w] \e[0m'
 
 # set homebrew's environment variables
 eval "$(/opt/homebrew/bin/brew shellenv)"

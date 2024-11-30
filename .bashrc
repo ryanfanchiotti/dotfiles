@@ -16,8 +16,7 @@ sshbu() {
         echo "Usage: ${FUNCNAME[0]} <RemoteID: Unsigned | None>"
         return 1
     }
-    local machine_num
-    machine_num=""
+    local machine_num=""
     [[ $# -ge 1 ]] && machine_num="$(printf "%02d" "${1}")"
     ssh "rfanchi1@remote${machine_num}.cs.binghamton.edu"
 }

@@ -21,3 +21,9 @@ set ruler
 " always use bash login shell in vim terminal
 set shell=bash\ -l
 
+" change line number color to grey
+highlight LineNr ctermfg=8
+
+" always show statusline as green
+set laststatus=2
+highlight StatusLine ctermfg=2

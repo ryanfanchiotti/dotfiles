@@ -9,6 +9,7 @@ alias fb="fzf --bind 'enter:become(bat {})'"
 alias umnt="diskutil unmount"
 alias tiv="tiv --256"
 alias ds_store_remove="find ~/ -name '.DS_Store' -delete 2>/dev/null &"
+alias dl_mp3="youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0"
 
 # ssh to bing remotes, param is number of machine to connect to
 sshbu() {

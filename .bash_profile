@@ -34,8 +34,7 @@ get_error_code() {
         echo -ne "$error_code "
     fi
 }
-
-PS1='\e[1;32m[$(get_error_code)$(uname) \u@\h \w] \e[0m'
+PS1='\[\033[1;32m\][$(get_error_code)$(uname) \u@\h \w] \[\033[0m\]'
 
 # set homebrew's environment variables
 eval "$(/opt/homebrew/bin/brew shellenv)"
